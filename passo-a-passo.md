@@ -29,8 +29,6 @@ O GitHub é uma plataforma que trabalha com repositórios e que serve para que a
 
 ## Passo a passo da criação de um projeto até a sua publicação no GitHub
 
-<br>
-
 ### Criando a pasta do nosso projeto
 
 * Criar uma nova pasta em seu computador com o nome do projeto.
@@ -134,21 +132,25 @@ Para publicar essas modificações em nosso repostório dentro do GitHub usamos 
 
 Ao entrar em um repositório, tem um botão escrito "code" e que ao clicar aparecem alguns links. 
 
+<img src="img/clone.png">
+
 Para clonar um projeto, você precisa copiar esse link e dentro do terminal usar o comando `git clone <link>`. 
 
-*Obs: Quando é clonado o repositório de alguém, ou o seu mesmo, não será mais necessário utilizar o **git init**.*
+*Obs: Quando é clonado um repositório não será mais necessário utilizar o **git init**.*
 
-Existe também o **fork** que é uma maneira de clonar o repostório de alguém diretamente no GitHub, sendo também mais simples, pois ao clicar no botão o projeto já aparece na aba de seus repositórios. 
+Existe também o **fork** que é uma maneira de clonar o repostório de alguém diretamente no GitHub, sendo também mais simples, pois ao clicar no botão o projeto já aparece como um de seus repositórios. 
+
+
+<img src="img/fork.png">
 
 ### Pegando modificações e atualizando seu projeto
 
-O comando `git pull` se encarrega de pegar todas as atualizações que estão na plataforma do GitHUb e atualizar o seu repositório local. 
-
+O comando `git pull` se encarrega de pegar todas as atualizações que estão na plataforma do GitHub e atualizar o seu repositório local. 
 
 ### Pull Request
 
-Caso você pegue o projeto de alguém pelo fork e a partir dele decide adicionar novas funcionalidades, salvar o projeto e empurrar essas modificações para a plataforma, isso vai fazer com que o projeto fique com 1 commit na frente da branch original e com isso aparece um botão para **Pull Request**. 
+Caso você pegue o projeto de alguém pelo fork e a partir dele acaba decidindo adicionar novas funcionalidades, salvar o que foi feito e empurrar essas modificações para a plataforma, isso vai fazer com que o projeto fique com 1 commit na frente da branch original e com isso aparece a possibilidade de realizar um **Pull Request**. 
 
-Ao clicar em Pull Resquest, ele irá identificar se existem conflitos a serem corrigidos, e caso não tenha, você poderá criar o pull request adicionando uma descrição explicando as alterações que foram feitas. 
+Ao clicar em Pull Resquest, ele irá identificar se existem conflitos a serem corrigidos com o que foi feito e com o que já existe no arquivo modificadp, e caso não sejam identificados conflitos, você poderá criar o pull request adicionando uma descrição e explicando as alterações que foram feitas para o dono do projeto. 
 
-O dono do repositório original irá analisar essas modificações e vai decidir se aceita ou não essa solicitação.
+O dono do repositório original irá analisar essas modificações e vai decidir se aceita ou não essa solicitação enviada por você.
