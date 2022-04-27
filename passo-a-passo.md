@@ -23,8 +23,6 @@ O GitHub é uma plataforma que trabalha com repositórios e que serve para que a
 
 * Para quem utiliza o Windows é recomendado o uso do Git Bash que já vem ao instalar o Git no sistema, porém quem utiliza o Linux ou Mac pode usar o terminal normalmente sem problemas.
 
-* Os exemplos que aqui criei são baseados no uso do Git/GitHub pelo Windows. 
-
 <br>
 
 ## Passo a passo da criação de um projeto até a sua publicação no GitHub
