@@ -52,11 +52,17 @@ Agora iremos criar o arquivo que quisermos com seu conteúdo e após salvá-lo, 
 <br>
 <br>
 
-Agora que nossos arquivos estão "preparados" na staging area, podemos dar o commit para o repositório utilizando o comando `git commit -m "mensagem do commit"`.
+Agora precisamos ver o status disso tudo, para isso usamos o comando `git status` que vai indicar as mudanças que precisam ser “commitadas” e que está adicionada no nosso staging area.
+
+Já que nossos arquivos estão "preparados" na staging area, podemos dar o commit e enviar essas modificações para o repository utilizando o comando `git commit -m "mensagem do commit"`. 
+
+_Obs: Ao realizar o primeiro commit, pode ser pedido a configuração de seu e-mail e nome._
+
+<img src="img/config.png">
 
 💡​ **DICA:** A mensagem do commit precisa ter um significado, então é sempre bom analisar da melhor maneira possível a semântica da mensagem com o que está sendo enviado para que você possa ajudar sua equipe caso eles se deparem com o que foi modificado por você naquele arquivo e até mesmo ajudar o seu eu do futuro 🤭​.
 
-Uma boa prática muito utilizada é a renomeação da **master** para a **main** e para renomear basta utilizar o comando `git branch -M "main"`. Ao criar um novo repositório utilizando o GitHub Desktop, a branch já vem com o nome de main, não sendo necessária a renomeação. 
+Uma boa prática muito utilizada é a renomeação da **master** para a **main** e para renomear basta utilizar o comando `git branch -M "main"`. Ao criar um novo repositório utilizando a interface GitHub Desktop, a branch já vem com o nome **main** não sendo necessária a renomeação. 
 
 ### Interfaces Git
 
@@ -94,7 +100,7 @@ Para visualizar se o nosso arquivo chegou ao repositório, basta recarregar a p�
 
 Agora vamos alterar o arquivo que realizamos o commit e vamos também adicionar um novo arquivo ao nosso projeto. 
 
-Ao finalizar as nossas alterações vamos adicioná-las ao staging area utilizando o `git add .` (para adicinar todas) ao invés de utilizar o comando *git add "nome do arquivo"*.
+Ao finalizar as nossas alterações vamos adicioná-las ao staging area utilizando o `git add .` para adicinar todas as modificações. Caso queira enviar apenas um arquivo, ao invés do ponto (.) basta adicionar o nome do arquivo como fizemos na primeira vez.
 
 Logo após podemos seguir com o comando `git commit -m "mensagem do commit"`.
 
@@ -136,7 +142,7 @@ Para clonar um projeto, você precisa copiar esse link e dentro do terminal usar
 
 *Obs: Quando é clonado um repositório não será mais necessário utilizar o **git init**.*
 
-Existe também o **fork** que é uma maneira de clonar o repostório de alguém diretamente no GitHub, sendo também mais simples, pois ao clicar no botão o projeto já aparece como um de seus repositórios. 
+O git clone não faz com que o projeto apareça no seu github, ele apenas clona o projeto em sua máquina. Caso queiram que o projeto apareça também no GitHub de vocês, basta utilizar a opção **fork** que é uma maneira de clonar o repostório de alguém diretamente no GitHub, sendo também mais simples, pois basta clicar no botão e o  projeto já aparece como um de seus repositórios. 
 
 
 <img src="img/fork.png">
