@@ -18,9 +18,11 @@ O GitHub é uma plataforma que trabalha com repositórios e que serve para que a
 
 ## Algumas recomendações
 
-* Precisamos baixar o Git
-  ( *[link para download do Git](https://git-scm.com/downloads)* )
-
+* Precisamos baixar o Git e o VSCode
+  ( *[link para download do Git](https://git-scm.com/downloads)* )  ( *[link para download do VSCode](https://code.visualstudio.com/download)* ) 
+  
+* O download do GitHub Desktop é opcional
+ 
 * Para quem utiliza o Windows é recomendado o uso do Git Bash que já vem ao instalar o Git no sistema, porém quem utiliza o Linux ou Mac pode usar o terminal normalmente sem problemas.
 
 <br>
@@ -104,7 +106,9 @@ Ao finalizar as nossas alterações vamos adicioná-las ao staging area utilizan
 
 Logo após podemos seguir com o comando `git commit -m "mensagem do commit"`.
 
-Para visualizar essas modificações em nosso GitHub vamos precisar dar o push `git push -u origin main`. 
+Para visualizar essas modificações em nosso GitHub vamos precisar dar o push `git push origin main`.
+
+Obs: quando vamos subir uma nova branch para o repositório remoto precisamos utilizar o -u ao dar push. 
 
 Ao olhar o nosso projeto no GitHub e clicar no nome do commit do arquivo, podemos ver as alterações feitas
   - O sinal de + com a linha verde indica as linhas que foram adicionadas.
