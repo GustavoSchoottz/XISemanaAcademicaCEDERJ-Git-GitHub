@@ -104,7 +104,7 @@ Ao finalizar as nossas alterações vamos adicioná-las ao staging area utilizan
 
 Logo após podemos seguir com o comando `git commit -m "mensagem do commit"`.
 
-Para visualizar essas modificações em nosso GitHub vamos precisar dar o push `git push origin main`, porém agora sem a necessidade da utilização do -u. 
+Para visualizar essas modificações em nosso GitHub vamos precisar dar o push `git push -u origin main`. 
 
 Ao olhar o nosso projeto no GitHub e clicar no nome do commit do arquivo, podemos ver as alterações feitas
   - O sinal de + com a linha verde indica as linhas que foram adicionadas.
