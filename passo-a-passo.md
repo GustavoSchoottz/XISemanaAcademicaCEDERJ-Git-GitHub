@@ -40,7 +40,7 @@ O GitHub é uma plataforma que trabalha com repositórios e que serve para que a
 * Abrir o **git bash**. Pode ser aberto pelo botão direito dentro da pasta do projeto em seu computador ou pelo terminal do VSCode acessando as pastas correspondentes. 
 * Precisamos utilizar o comando `git init` para inicializar o nosso **repositório**. Com isso será criada uma pasta chamada **.git** (dentro da pasta do nosso projeto) que contém todas as configurações e arquivos necessários para que tudo funcione perfeitamente, então não exclua essa pasta.
 
-Vamos utilizar o comando `git add "nome do arquivo criado"` para colocar ele na área de stagging.
+Vamos utilizar o comando `git add "nome do arquivo criado"` para colocar ele na área de staging.
 
 ***Obs:** Esse add é necessário antes de dar commit no arquivo.* 
 
