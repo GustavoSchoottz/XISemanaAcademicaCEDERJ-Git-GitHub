@@ -5,3 +5,4 @@ Esse repositório serve como um material complementar referente ao assunto de Gi
 Para visualizar o "passo a passo" criado e iniciar seus estudos, é necessário clicar no arquivo `passo-a-passo.md`.
 
 💡 O arquivo possui a extensão _.md_ por ser um arquivo markdown que possui o objetivo de simplificar a estruturação de um texto, tornando a escrita e a leitura mais simples.
+.
